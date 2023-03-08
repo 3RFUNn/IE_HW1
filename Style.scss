@@ -2,3 +2,19 @@ body {
 	margin: 0;
 	line-height: normal;
 }
+
+.home-page-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-color: var(--background);
+	width: 100%;
+	height: 3099px;
+	overflow: hidden;
+	text-align: left;
+	font-size: var(--paragraph-progress-15-size);
+	color: var(--paragraph-font);
+	font-family: var(--paragraph-progress-15);
+}
