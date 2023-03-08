@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.home-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: var(--background);
+  width: 100%;
+  height: 3099px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--paragraph-progress-15-size);
+  color: var(--paragraph-font);
+  font-family: var(--paragraph-progress-15);
+}
+
+.left-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--white);
+  width: 305px;
+  height: 1315px;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=Style.css.map */

@@ -18,3 +18,15 @@ body {
 	color: var(--paragraph-font);
 	font-family: var(--paragraph-progress-15);
 }
+
+.left-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    width: 305px;
+    height: 1315px;
+    display: flex;
+    flex-direction: column;
+  }
+  
