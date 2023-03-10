@@ -112,24 +112,55 @@ body {
 
 .languages {
   position: absolute;
-  display: flex; /* Add this line to make it flex */
-  flex-direction: column; /* Set the flex direction to column */
+  display: flex;
+  top: 68px;
+  left: 0;
+  width: 371px;
+  height: 120px;
+  top: 121px;
+  width: 220px;
+  height: 24px;
   top: 557px;
   left: 40px;
   width: 371px;
   height: 188px;
 }
 
-.skills {
+#skills {
   position: absolute;
   top: 0;
   left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-transform: capitalize;
   font-size: var(--h4-18-size);
   line-height: 123.6%;
   font-weight: 500;
   color: var(--black);
+  display: flex;
+}
+
+.bangla {
+  display: flex;
+  position: absolute;
+  top: 37px;
+  left: 0;
+  width: 228px;
+  height: 24px;
+}
+
+#persian {
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  text-transform: capitalize;
+  position: absolute;
+  display: flex;
+}
+
+#native {
+  position: absolute;
+  top: 0;
+  left: 182px;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: flex;
 }/*# sourceMappingURL=Style.css.map */
