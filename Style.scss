@@ -140,7 +140,7 @@ body {
     height: 24px;
   }
   
-  #persian {
+  #persian, #spanish1 {
     top: 0;
     left: 0;
     line-height: 24px;
@@ -154,5 +154,112 @@ body {
     left: 182px;
     line-height: 24px;
     text-transform: capitalize;
+    display: flex;
+  }
+  .english {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 371px;
+    height: 120px;
+    display: flex;
+  }
+  #english1 {
+    line-height: 24px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 11px;
+    left: 0;
+    display: flex;
+  }
+  .advanced-parent {
+    position: absolute;
+    top: 0;
+    left: 169px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  #advanced {
+    line-height: 24px;
+    text-transform: capitalize;
+    position: relative;
+    display: flex;
+  }
+  #frame-child {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: flex;
+  }
+  .spanish {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 371px;
+    height: 120px;
+    top: 121px;
+    width: 220px;
+    height: 24px;
+  }
+  #native {
+    position: absolute;
+    top: 0;
+    left: 182px;
+    line-height: 24px;
+    text-transform: capitalize;
+    display: flex;
+  }
+  .left-menu-line1 {
+    position: absolute;
+    top: 355.25px;
+    left: 39.25px;
+    border-top: 1.5px solid var(--background);
+    box-sizing: border-box;
+    width: 221.5px;
+    height: 1.5px;
+    display: flex;
+  }
+  .user-info {
+    position: absolute;
+    top: 102px;
+    left: 0;
+    width: 220px;
+    height: 24px;
+    top: 381px;
+    left: 40px;
+    height: 126px;
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+  }
+  .age {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 25px;
+    display: flex;
+  }
+
+
+
+
+
+
+
+  .left-menu-line2 {
+    position: absolute;
+    top: 531.25px;
+    left: 39.25px;
+    border-top: 1.5px solid var(--background);
+    box-sizing: border-box;
+    width: 221.5px;
+    height: 1.5px;
     display: flex;
   }
