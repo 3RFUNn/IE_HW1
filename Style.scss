@@ -89,3 +89,43 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+  #user-online {
+      position: absolute;
+      top: 110px;
+      left: 148px;
+      width: 36px;
+      height: 36px;
+      display: flex;
+  }
+  #social-media {
+    position: absolute;
+	top: 257px;
+	left: 0;
+	width: 219px;
+	height: 24px;
+  display: flex;
+  }
+  .languages {
+    position: absolute;
+    display: flex; /* Add this line to make it flex */
+    flex-direction: column; /* Set the flex direction to column */
+    top: 557px;
+    left: 40px;
+    width: 371px;
+    height: 188px;
+  }
+  .skills {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: var(--h4-18-size);
+    line-height: 123.6%;
+    font-weight: 500;
+    color: var(--black);
+  }
+  
+  
