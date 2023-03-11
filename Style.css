@@ -305,6 +305,119 @@ body {
   display: flex;
 }
 
+.residence-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 25px;
+  background-color: var(--yellow);
+  width: 89px;
+  height: 24px;
+  display: flex;
+}
+
+.residence1 {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.velenjak {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  line-height: 24px;
+  text-transform: capitalize;
+  left: 180px;
+  text-align: right;
+  display: flex;
+}
+
+.developer {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  width: 220px;
+  height: 24px;
+  display: flex;
+}
+
+.developer-child {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  width: 220px;
+  height: 24px;
+  top: 0;
+  background-color: var(--yellow);
+  width: 85px;
+  display: flex;
+}
+
+.developer-child1 {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.available {
+  position: absolute;
+  top: 0;
+  left: 175px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--available);
+  text-align: right;
+  display: flex;
+}
+
+.address {
+  position: absolute;
+  top: 102px;
+  left: 0;
+  width: 220px;
+  height: 24px;
+  display: flex;
+}
+
+.address-child {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  width: 220px;
+  height: 24px;
+  top: 0;
+  background-color: var(--yellow);
+  width: 75px;
+  display: flex;
+}
+
+.address1 {
+  position: absolute;
+  top: 102;
+  left: 5px;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.city-address {
+  position: absolute;
+  top: 0;
+  left: 88px;
+  line-height: 24px;
+  text-transform: capitalize;
+  text-align: right;
+  display: flex;
+}
+
 .left-menu-line2 {
   position: absolute;
   top: 531.25px;
