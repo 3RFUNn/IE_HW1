@@ -131,7 +131,7 @@ body {
     color: var(--black);
     display: flex;
   }
-.bangla {
+.iran {
     display: flex;
     position: absolute;
     top: 37px;
@@ -274,8 +274,14 @@ body {
 	text-align: right;
   display: flex;
 }
-
-
+.residence {
+	position: absolute;
+	top: 34px;
+	left: 0;
+	width: 220px;
+	height: 24px;
+  display: flex;
+}
 
 .left-menu-line2 {
     position: absolute;
