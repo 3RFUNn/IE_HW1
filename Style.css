@@ -411,7 +411,7 @@ body {
 .city-address {
   position: absolute;
   top: 0;
-  left: 190px;
+  left: 185px;
   line-height: 24px;
   text-transform: capitalize;
   text-align: right;
@@ -426,5 +426,213 @@ body {
   box-sizing: border-box;
   width: 221.5px;
   height: 1.5px;
+  display: flex;
+}
+
+.left-menu-line3 {
+  position: absolute;
+  top: 734.25px;
+  left: 39.25px;
+  border-top: 1.5px solid var(--background);
+  box-sizing: border-box;
+  width: 221.5px;
+  height: 1.5px;
+  display: flex;
+}
+
+.email {
+  top: 829px;
+  left: 40px;
+  position: absolute;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.testgmailcom {
+  position: absolute;
+  line-height: 24px;
+  text-transform: capitalize;
+  top: 824px;
+  left: 153px;
+  text-decoration: underline;
+  color: inherit;
+  display: flex;
+}
+
+.phone {
+  position: absolute;
+  line-height: 24px;
+  text-transform: capitalize;
+  top: 877px;
+  left: 37px;
+  display: flex;
+}
+
+.phone-number {
+  position: absolute;
+  top: 876px;
+  left: 153px;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.telegram {
+  position: absolute;
+  top: 923px;
+  left: 152px;
+  line-height: 24px;
+  text-transform: capitalize;
+  top: 964px;
+  top: 921px;
+  left: 37px;
+  display: flex;
+}
+
+.skype {
+  position: absolute;
+  top: 923px;
+  left: 152px;
+  line-height: 24px;
+  text-transform: capitalize;
+  top: 964px;
+  top: 921px;
+  left: 37px;
+  top: 964px;
+  display: flex;
+}
+
+.tele-id {
+  position: absolute;
+  top: 923px;
+  left: 152px;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: flex;
+}
+
+.skype-id {
+  position: absolute;
+  top: 923px;
+  left: 152px;
+  line-height: 24px;
+  text-transform: capitalize;
+  top: 964px;
+  display: flex;
+}
+
+.left-menu-line4 {
+  position: absolute;
+  top: 734.25px;
+  left: 39.25px;
+  border-top: 1.5px solid var(--background);
+  box-sizing: border-box;
+  width: 221.5px;
+  height: 1.5px;
+  top: 1026.25px;
+  left: 40.25px;
+  display: flex;
+}
+
+.extra-skills {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  width: 186px;
+  height: 24px;
+  top: 124px;
+  width: 139px;
+  top: 1052px;
+  left: 40px;
+  width: 186px;
+  height: 148px;
+  display: flex;
+}
+
+.skills {
+  position: absolute;
+  top: 0;
+  text-transform: capitalize;
+  left: 0;
+  font-size: var(--h4-18-size);
+  line-height: 123.6%;
+  font-weight: 500;
+  color: var(--black);
+  display: flex;
+  flex-direction: column;
+}
+
+.game-developer {
+  position: absolute;
+  top: 37px;
+  left: 0;
+  width: 186px;
+  height: 24px;
+  display: flex;
+}
+
+.game-developer1 {
+  position: absolute;
+  top: 0;
+  text-transform: capitalize;
+  left: 30px;
+  line-height: 24px;
+  display: flex;
+}
+
+.icons {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  display: flex;
+}
+
+.buttoncv {
+  position: absolute;
+  height: 48.57%;
+  width: 64.09%;
+  top: 25%;
+  right: 17.73%;
+  bottom: 26.43%;
+  left: 18.18%;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+
+.icons-child {
+  position: absolute;
+  height: 66.67%;
+  width: 66.67%;
+  top: 0;
+  right: 33.33%;
+  bottom: 33.33%;
+  left: 0;
+  border: 1px solid var(--yellow);
+  box-sizing: border-box;
+  display: flex;
+}
+
+.icons-item {
+  position: absolute;
+  height: 66.67%;
+  width: 66.67%;
+  top: 0;
+  right: 33.33%;
+  bottom: 33.33%;
+  left: 0;
+  border: 1px solid var(--yellow);
+  box-sizing: border-box;
+  top: 33.33%;
+  right: 0;
+  bottom: 0;
+  left: 33.33%;
   display: flex;
 }/*# sourceMappingURL=Style.css.map */
