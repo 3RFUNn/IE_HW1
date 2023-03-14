@@ -937,8 +937,6 @@ body {
 #developer-container {
   height: 100%;
   width: 65%;
-  display: flex;
-  flex-direction: column;
 }
 
 #name {
