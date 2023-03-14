@@ -5,11 +5,8 @@ body {
   font-size: var(--paragraph-progress-15-size);
   color: var(--paragraph-font);
   font-family: var(--paragraph-progress-15);
-}
-
-.left-flex {
-  display: flex;
-  flex-flow: column wrap;
+  width: 1326px;
+  height: 3099px;
 }
 
 .left-menu {
@@ -18,7 +15,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 20%;
   height: 1315px;
 }
 
@@ -912,7 +909,7 @@ body {
   max-height: 100%;
 }
 
-.flex-container {
+.right-menu {
   display: flex;
-  flex-direction: column;
+  flex-wrap: column wrap;
 }/*# sourceMappingURL=Style.css.map */
