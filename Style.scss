@@ -841,14 +841,14 @@ body {
 .intro{
     height: 532px;
 	width: 100%;
-	margin: 30px;
-	margin-top: 0px;
+	margin-left: 30px;
 	background-color: var(--white);
 	display: flex;
 	flex-direction: row;
 	
 }
 #intro-image{
+	padding-right: 5%;
 	height: 100%;
 	width: 35%;
 	
@@ -867,7 +867,8 @@ body {
     line-height: 59px;
     letter-spacing: 0em;
     text-align: left;
-    padding-left: 6%;	
+    padding-left: 6%;
+	padding-top: 4%;
 }
 
 #span-game{
@@ -882,8 +883,29 @@ body {
     text-align: left;
 	color: var(--paragraph-font);
     padding-left: 6%;
-    padding-top: 5%;
+	padding-right: 15%;
+	margin-bottom: 5%;
 }
+.hire-me-button{
+	width: 25%;
+    height: 7%;
+    margin-left: 6%;
+    margin-top: 5%;
+    padding-top: 3%;
+	background-color: var(--yellow);
+	border-radius: 8px;
+}
+#hire-me{
+	font-weight: bold;
+	margin-left: 25%;
+	display: flex;
+	flex-direction: row;
+}
+#arrow{
+	margin-left: 9%;
+}
+
+
 
 
 
