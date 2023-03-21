@@ -1166,6 +1166,8 @@ body {
 .education {
   height: 815px;
   margin-top: 51px;
+  display: flex;
+  flex-direction: column;
 }
 
 .education-top {
@@ -1332,4 +1334,11 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 28px;
+}
+
+.work-history {
+  height: 815px;
+  margin-top: 59px;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=Style.css.map */
