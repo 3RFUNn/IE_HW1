@@ -17,6 +17,11 @@ body {
 	flex-direction: column;
 	float: left;
 }
+.right-part {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
 .left-menu-child {
     background-color: var(--white);
     width: 305px;
@@ -833,11 +838,6 @@ body {
 	color: var(--black);
 	display: flex;
 }
-.right-part {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-}
 .intro{
     height: 532px;
 	width: 100%;
@@ -1067,6 +1067,8 @@ color: var(--paragraph-font);
 .education{
 	height: 815px;
 	margin-top: 51px;
+	display: flex;
+	flex-direction: column;
 }
 .education-top{
 	border-style: none;
@@ -1217,4 +1219,10 @@ color: var(--black);
 display: flex;
 flex-direction: column;
 margin-top: 28px;
+}
+.work-history{
+	height: 815px;
+	margin-top: 59px;
+	display: flex;
+	flex-direction: column;
 }
