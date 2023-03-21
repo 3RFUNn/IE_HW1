@@ -20,6 +20,12 @@ body {
   float: left;
 }
 
+.right-part {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .left-menu-child {
   background-color: var(--white);
   width: 305px;
@@ -911,12 +917,6 @@ body {
   font-weight: 500;
   color: var(--black);
   display: flex;
-}
-
-.right-part {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
 }
 
 .intro {
