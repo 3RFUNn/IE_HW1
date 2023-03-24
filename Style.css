@@ -403,25 +403,18 @@ body {
 }
 
 .extra-skills {
-  position: absolute;
-  top: 95px;
-  left: 0;
-  width: 186px;
-  height: 24px;
-  top: 124px;
-  width: 139px;
-  top: 1052px;
-  left: 40px;
-  width: 186px;
-  height: 148px;
+  width: 100%;
+  height: 15%;
   display: flex;
+  flex-direction: column;
 }
 
 .skills {
-  position: absolute;
-  top: 0;
+  width: 100%;
+  height: 15%;
+  margin-left: 10%;
+  margin-top: 8%;
   text-transform: capitalize;
-  left: 0;
   font-size: var(--h4-18-size);
   line-height: 123.6%;
   font-weight: 500;
@@ -430,303 +423,62 @@ body {
   flex-direction: column;
 }
 
+.logo {
+  color: var(--yellow);
+}
+
 .game-developer {
-  position: absolute;
-  top: 37px;
-  left: 0;
-  width: 186px;
-  height: 24px;
+  margin-left: 10%;
+  width: 100%;
   display: flex;
 }
 
 .game-developer1 {
-  position: absolute;
-  top: 0;
+  padding-left: 5%;
   text-transform: capitalize;
-  left: 30px;
   line-height: 24px;
-  display: flex;
-}
-
-.icons {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  width: 15px;
-  height: 15px;
-  display: flex;
-}
-
-.buttoncv {
-  position: absolute;
-  height: 48.57%;
-  width: 64.09%;
-  top: 25%;
-  right: 17.73%;
-  bottom: 26.43%;
-  left: 18.18%;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-}
-
-.icons-child {
-  position: absolute;
-  height: 66.67%;
-  width: 66.67%;
-  top: 0;
-  right: 33.33%;
-  bottom: 33.33%;
-  left: 0;
-  border: 1px solid var(--yellow);
-  box-sizing: border-box;
-  display: flex;
-}
-
-.icons-item {
-  position: absolute;
-  height: 66.67%;
-  width: 66.67%;
-  top: 0;
-  right: 33.33%;
-  bottom: 33.33%;
-  left: 0;
-  border: 1px solid var(--yellow);
-  box-sizing: border-box;
-  top: 33.33%;
-  right: 0;
-  bottom: 0;
-  left: 33.33%;
   display: flex;
 }
 
 .stylus-sass-less {
-  position: absolute;
-  top: 37px;
-  left: 0;
-  width: 186px;
-  height: 24px;
-  top: 66px;
-  width: 157px;
+  margin: 1%;
+  margin-left: 10%;
+  width: 100%;
   display: flex;
 }
 
 .stylus-sass-less1 {
-  position: absolute;
-  top: 0;
   text-transform: capitalize;
-  left: 30px;
+  padding-left: 5%;
   line-height: 24px;
-  display: flex;
-}
-
-.icons-1 {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  width: 15px;
-  height: 15px;
-  display: flex;
-}
-
-.buttoncv-1 {
-  position: absolute;
-  height: 48.57%;
-  width: 64.09%;
-  top: 25%;
-  right: 17.73%;
-  bottom: 26.43%;
-  left: 18.18%;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-}
-
-.icons-child-1 {
-  position: absolute;
-  height: 66.67%;
-  width: 66.67%;
-  top: 0;
-  right: 33.33%;
-  bottom: 33.33%;
-  left: 0;
-  border: 1px solid var(--yellow);
-  box-sizing: border-box;
-  display: flex;
-}
-
-.icons-item-1 {
-  position: absolute;
-  height: 66.67%;
-  width: 66.67%;
-  top: 0;
-  right: 33.33%;
-  bottom: 33.33%;
-  left: 0;
-  border: 1px solid var(--yellow);
-  box-sizing: border-box;
-  top: 33.33%;
-  right: 0;
-  bottom: 0;
-  left: 33.33%;
   display: flex;
 }
 
 .unity-engine {
-  position: absolute;
-  top: 95px;
-  left: 0;
-  width: 186px;
-  height: 24px;
+  width: 100%;
+  margin: 1%;
+  margin-left: 10%;
   display: flex;
 }
 
 .unity-engine1 {
-  position: absolute;
-  top: 0;
+  padding-left: 5%;
   text-transform: capitalize;
-  left: 30px;
   line-height: 24px;
-  display: flex;
-}
-
-.icons-2 {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  width: 15px;
-  height: 15px;
-  display: flex;
-}
-
-.buttoncv-2 {
-  position: absolute;
-  height: 48.57%;
-  width: 64.09%;
-  top: 25%;
-  right: 17.73%;
-  bottom: 26.43%;
-  left: 18.18%;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-}
-
-.icons-child-2 {
-  position: absolute;
-  height: 66.67%;
-  width: 66.67%;
-  top: 0;
-  right: 33.33%;
-  bottom: 33.33%;
-  left: 0;
-  border: 1px solid var(--yellow);
-  box-sizing: border-box;
-  display: flex;
-}
-
-.icons-item-2 {
-  position: absolute;
-  height: 66.67%;
-  width: 66.67%;
-  top: 0;
-  right: 33.33%;
-  bottom: 33.33%;
-  left: 0;
-  border: 1px solid var(--yellow);
-  box-sizing: border-box;
-  top: 33.33%;
-  right: 0;
-  bottom: 0;
-  left: 33.33%;
   display: flex;
 }
 
 .git-knowledge {
-  position: absolute;
-  top: 95px;
-  left: 0;
-  width: 186px;
-  height: 24px;
-  top: 124px;
-  width: 139px;
+  width: 100%;
+  margin: 1%;
+  margin-left: 10%;
   display: flex;
 }
 
 .git-knowledge1 {
-  position: absolute;
-  top: 0;
   text-transform: capitalize;
-  left: 30px;
+  margin-left: 5%;
   line-height: 24px;
-  display: flex;
-}
-
-.icons-3 {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  width: 15px;
-  height: 15px;
-  display: flex;
-}
-
-.buttoncv-3 {
-  position: absolute;
-  height: 48.57%;
-  width: 64.09%;
-  top: 25%;
-  right: 17.73%;
-  bottom: 26.43%;
-  left: 18.18%;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-}
-
-.icons-child-3 {
-  position: absolute;
-  height: 66.67%;
-  width: 66.67%;
-  top: 0;
-  right: 33.33%;
-  bottom: 33.33%;
-  left: 0;
-  border: 1px solid var(--yellow);
-  box-sizing: border-box;
-  display: flex;
-}
-
-.icons-item-3 {
-  position: absolute;
-  height: 66.67%;
-  width: 66.67%;
-  top: 0;
-  right: 33.33%;
-  bottom: 33.33%;
-  left: 0;
-  border: 1px solid var(--yellow);
-  box-sizing: border-box;
-  top: 33.33%;
-  right: 0;
-  bottom: 0;
-  left: 33.33%;
   display: flex;
 }
 
@@ -739,49 +491,34 @@ body {
   align-self: center;
 }
 
-.buttoncv2 {
-  position: absolute;
-  top: 1250px;
-  left: 40px;
-  width: 220px;
-  height: 40px;
+.download-cv-parent {
+  margin-top: 5%;
+  height: 3%;
+  width: 60%;
+  display: flex;
+  align-self: center;
+  flex-direction: row;
   font-size: var(--font-size-sm);
   color: var(--black);
   background-color: var(--yellow);
-}
-
-.download-cv-parent {
-  position: absolute;
-  height: 48.57%;
-  width: 64.09%;
-  top: 25%;
-  right: 17.73%;
-  bottom: 26.43%;
-  left: 18.18%;
+  border-radius: 5px;
 }
 
 .download-cv {
-  position: absolute;
-  height: 100%;
-  top: 0;
-  left: 0;
-  width: 76.6%;
+  padding-left: 15%;
+  align-self: center;
+  display: flex;
   text-transform: uppercase;
   font-weight: 500;
-  display: inline-block;
 }
 
 .frame-icon {
-  position: absolute;
-  height: 82.35%;
-  width: 9.93%;
-  top: 11.76%;
-  right: 0;
-  bottom: 5.88%;
-  left: 90.07%;
+  display: flex;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
+  padding-left: 7%;
+  align-self: center;
 }
 
 .intro {
